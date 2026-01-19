@@ -5,6 +5,8 @@ project(libharu
     DESCRIPTION "libHaru is a free, cross platform, open source library for generating PDF files."
     LANGUAGES C)
 
+include(GNUInstallDirs)
+
 if (UNIX)
     include(GNUInstallDirs)
 endif()
